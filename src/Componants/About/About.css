@@ -1,0 +1,72 @@
+.container {
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+    margin-top: 8%;
+}
+p {
+    color: var(--p-color);
+    margin-bottom: 1.5rem;
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #000000b3;
+}
+.s-title {
+    letter-spacing: 6px;
+    font-size: .7rem;
+    padding: 10px 0;
+}
+.l-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+    margin: 0 0 30px;
+    color: #000;
+    font-family: var(--font-title);
+}
+
+.card {
+    padding: 15px 30px;
+    border: none !important;
+    box-shadow: 0 0 56px -8px #0000002b;
+    border-radius: 0 !important;
+    margin-top: 20px;
+}
+.card1 {
+    border-bottom: 2px solid var(--blue-color) !important;
+}
+.card2 {
+    border-bottom: 2px solid red  !important;
+}
+.card3 {
+    border-bottom: 2px solid yellow !important;
+}
+.card4 {
+    border-bottom: 2px solid purple !important;
+}
+.card-icon {
+    margin-bottom: 20px;
+}
+i {
+    opacity: .7;
+}
+.icon1 {
+    color: var(--blue-color);
+}
+.icon2 {
+    color: red;
+}
+.icon3 {
+    color: yellow;
+}
+.icon4 {
+    color: purple;
+}
+.card-text {
+    margin-bottom: 30px !important;
+    font-weight: 400;
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap";
+
+
+/* body{
+    font-family: var(--font-family);
+} */
+.col-md-10 {
+    padding: 0 !important;
+}
+.sidebar {
+    background-color: #f6f5f5;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    width: inherit;
+}
+.image {
+    width: 9.5rem;
+    height: 9.5rem;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-image: url(/public/imgs/profile.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.hLink {
+    line-height: 2;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.pSide {
+    font-size: .75rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: #000000b3;
+    line-height: 1.8;
+}
+.pLink {
+    text-decoration: none;
+}
+.sidebar-list {
+    list-style: none;
+    padding-left: 0;
+}
+.side-item {
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.sidebar-list .active .side-link {
+    color: var(--blue-color) !important;
+}
+
+.side-link {
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--p-color);
+    font-size: .75rem;
+    letter-spacing: 1px !important;
+    position: relative;
+}
+
+.side-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px; 
+    bottom: -2px; 
+    left: 0;
+    background-color: var(--blue-color); 
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.side-link:hover::after {
+    transform: scaleX(1);
+}
